@@ -135,19 +135,31 @@ This distinction helps separate **direct AI-driven workforce reductions** from b
 
 Power BI is used as the final visualization and business-intelligence layer of the project.
 
-The dashboard focuses on:
+### Dashboard
 
-- Overall layoff trends
-- Industry impact
-- Geographic distribution
-- Company-level patterns
-- Layoff severity
-- Recent AI-related developments
+The final dashboard is organized into three pages:
 
-The Power BI dashboard will be available in:
+1. **Overview** — overall layoff trends across companies, industries, countries, and years.
+2. **AI & Recent Layoffs** — evidence-based analysis of AI-linked layoffs and their recent concentration.
+3. **Key Insights & Takeaways** — key findings connecting overall layoff patterns with AI-linked workforce restructuring.
 
-`03_PowerBI/`
+### Dashboard Preview
 
+#### 1. Overview
+
+![Overview](03_PowerBI/01_overview.png)
+
+#### 2. AI & Recent Layoffs
+
+![AI & Recent Layoffs](03_PowerBI/02_ai_recent_layoffs.png)
+
+#### 3. Key Insights & Takeaways
+
+![Key Insights & Takeaways](03_PowerBI/03_key_insights.png)
+
+The Power BI source file is available in:
+
+`03_PowerBI/Layoffs_Project.pbix`
 ---
 
 ## Key Analytical Themes
@@ -192,6 +204,10 @@ tech-layoffs-analysis/
 │   └── tech_layoffs_analysis_backup.sql
 │
 ├── 03_PowerBI/
+│   ├── Layoffs_Project.pbix
+│   ├── 01_overview.png
+│   ├── 02_ai_recent_layoffs.png
+│   └── 03_key_insights.png
 │
 ├── data/
 │   └── layoffs.csv
