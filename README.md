@@ -157,7 +157,7 @@ The final dashboard is organized into three pages:
 
 ![Key Insights & Takeaways](03_PowerBI/03_key_insights.png)
 
-The Power BI source file is available in:
+The Power BI source file is available here:
 
 `03_PowerBI/Layoff Project.pbix`
 ---
@@ -204,7 +204,7 @@ tech-layoffs-analysis/
 │   └── tech_layoffs_analysis_backup.sql
 │
 ├── 03_PowerBI/
-│   ├── Layoffs Project.pbix
+│   ├── Layoff Project.pbix
 │   ├── 01_overview.png
 │   ├── 02_ai_recent_layoffs.png
 │   └── 03_key_insights.png
